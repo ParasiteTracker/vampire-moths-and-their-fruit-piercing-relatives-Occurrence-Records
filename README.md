@@ -1,4 +1,64 @@
-[![Build Status](https://travis-ci.org/ParasiteTracker/vampire-moth-dwca.svg)](https://travis-ci.org/ParasiteTracker/vampire-moth-dwca) [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:ParasiteTracker/vampire-moth-dwca)](http://globalbioticinteractions.org/?accordingTo=globi:ParasiteTracker/vampire-moth-dwca) 
+## Description of the content in vampire-moth-globi
 
-This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org).
+[![Build Status](https://travis-ci.org/ParasiteTracker/vampire-moth-dwca.svg)](https://travis-ci.org/ParasiteTracker/vampire-moth-dwca) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:ParasiteTracker/vampire-moth-dwca)](http://globalbioticinteractions.org/?accordingTo=globi:ParasiteTracker/vampire-moth-dwca) 
+
+[```Citation```](#Citation) / [```Interaction Types```](#interaction-types) / [```Data Definitions```](#data-definitions) / [```Included Resources```](#included-resources) /  [```Data Issues```](#data-issues) / [```Summary```](#summary)
+
+
+### Description
+
+vampire-moth-dwca is a repository for specimen occurrence data about vampire moths and their fruit-piercing relatives (Lepidoptera: Erebidae: *Calyptra* spp.). The feeding observations are from the specimens.
+
+This GitHub repository was created by importing the contents of a Symbiota Darwin Core Archive file. All of the fields in the dataset were produced by entering data in presently available fields in Symbiota (September 28, 2018).
+
+### Citation
+
+Jennifer Zaspel. 2018. Biotic species interactions manually extracted from occurrence records.
+
+
+### Interaction Types
+
+The interactions in this dataset were mapped to terms in the Relations Ontology (RO). Piercing was not available in RO, so ```biotically interacts with``` was used as a replacement.
+
+interactionTypeName | interactionTypeId
+--- | --- |
+eats | http://purl.obolibrary.org/obo/RO_0002470
+piercing | http://purl.obolibrary.org/obo/RO_0002437
+enclosed conditions | http://purl.obolibrary.org/obo/ENVO_01001405
+in nature | http://purl.obolibrary.org/obo/ENVO_01001226
+under experimental conditions | http://purl.obolibrary.org/obo/ENVO_01001405
+ 
+### Data Definitions
+
+The definitions of the columns used in the interactions.tsv dataset are described here. If these correspond with Darwin Core they are mapped to those classes. Some of the columns in the template were unused.
+
+  * A **InteractionID** : An non-unique identifier that links two interactions as part of the same observation in the dataset.
+  * A **BasisOfRecord** [DWC:BasisOfRecord](http://rs.tdwg.org/dwc/terms/basisOfRecord) : The specific nature of the data record.
+  * A **sourceTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
+  * A **sourceTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
+  * A **interactionTypeId** : Identifier for the interaction type.
+  * A **interactionTypeName** : A interaction type (ex. eats, piercing). The name of the interaction type should be the name as it is listed in the original text, which is not always the name of the term it is mapped to. As long as the definition to the mapping is compatible with the ```interactionTypeName```, it is usable as a ```interactionTypeId```.
+  * A **targetBodyPartName**  : The specific name of the target body part. The name of the body part should be the name as it is listed in the original text, which is not always the name of the term it is mapped to. As long as the definition to the mapping is compatible with the ```targetBodyPartName```, it is usable as a ```targetBodyPartId```.
+  * A **targetBodyPartId**  : Identifer for the body part name.
+  * A **experimentalConditionName**  : 
+  * A **experimentalConditionId** : 
+  * A **sexName** [DWC:sex](http://rs.tdwg.org/dwc/terms/sex) : The sex of the biological individual(s) represented in the Occurrence.
+  * A **sexID**  : Identifer for the sex name.
+  * A **targetTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
+  * A **targetTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
+  
+### Included Resources
+
+
+### Data Issues
+
+Several issues and decisions arose while translating the observations from the literature into a series of single observations. Those are described here.
+
+1. Invalid date strings according to TDWG and GloBI
+1. Dynamic properties not in json format
+1. Only records with dwc:associatedTaxa or dwc:dynamicProperties are indexed by GloBI
+1. GloBI is using the EML to obtain attribution information. It is important to have this information filled out
+
+### Summary
+This dataset can serve as a example of how to format data for serving occurrence records from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand
 
