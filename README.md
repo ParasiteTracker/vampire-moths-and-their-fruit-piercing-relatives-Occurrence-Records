@@ -56,9 +56,9 @@ Several issues and decisions arose while translating the observations from the l
 
 1. Invalid date strings according to TDWG and GloBI
 1. Dynamic properties not in json format
-1. Only records with dwc:associatedTaxa or dwc:dynamicProperties are indexed by GloBI
+1. Only records with ```dwc:associatedTaxa``` or ```dwc:dynamicProperties``` are indexed by GloBI
 1. GloBI is using the EML to obtain attribution information. It is important to have this information filled out
 
 ### Summary
-This dataset can serve as a example of how to format data for serving occurrence records from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand
+This dataset can serve as a example of how to format data for serving occurrence records from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand.
 
