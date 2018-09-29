@@ -12,6 +12,7 @@ vampire-moth-dwca is a repository for specimen occurrence data about vampire mot
 This GitHub repository was created from the contents of a Symbiota Darwin Core Archive file. Presently, only the occurrences.csv and eml.xml is indexed by GloBI.
 
 ***Workflow***
+
 All of the fields in the occurrences.csv dataset were produced by entering data in presently available fields in Symbiota (September 28, 2018). A Darwin Core Archive was created using the Symbiota Darwin Core Archive publishing tool and the files from that publication are directly uploaded to the GitHub repository. 
 
 Edit on Symbiota -> create Darwin Core Archive -> push to your GitHub repository for this dataset
@@ -32,7 +33,7 @@ Jennifer Zaspel. 2018. Biotic species interactions manually extracted from occur
 
 ### Interaction Types
 
-The interactions in this dataset were mapped to terms in the Relations Ontology (RO). Piercing was not available in RO, so ```biotically interacts with``` was used as a replacement.
+The kinds of biotic species interactions in this dataset were mapped to terms in the Relations Ontology (RO).
 
 interactionTypeName | interactionTypeId
 --- | --- |
@@ -40,7 +41,7 @@ eats | http://purl.obolibrary.org/obo/RO_0002470
  
 ### Data Definitions
 
-The definitions of the key:value pairs that are used in DWC:dynamicProperties field in the occurrences.tsv dataset are described here. This is not an exaustive list of classes to describe the interactions, only the ones that were used in this dataset.
+The definitions of the keys from the key:value pairs that are used in DWC:dynamicProperties field in the occurrences.csv dataset are described here. This is not an exaustive list of classes to describe the interactions, only the ones that were used in this dataset.
 
   * A **sourceTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
   * A **sourceTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
@@ -52,7 +53,7 @@ The definitions of the key:value pairs that are used in DWC:dynamicProperties fi
   * A **targetTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
   
 ### Included Resources
-
+Darwin Core Archive created by Symbiota
 
 ### Data Issues
 
