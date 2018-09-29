@@ -56,5 +56,5 @@ Several issues and decisions arose while translating the observations from the l
 ### Summary
 This dataset can serve as a example of how a person can format data for serving occurrence records using Darwin Core Archives from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand the structure of the shared data. These were entered by hand into a Symbiota portal that has both DWC:associatedTaxa and DWC:dynamicProperties available to use. 
 
-![image of vampire-moth-globi](https://raw.githubusercontent.com/seltmann/vampire-moth-globi/master/network-bloodfeeding.png)
+![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/Symbiota-screen.png)
 
