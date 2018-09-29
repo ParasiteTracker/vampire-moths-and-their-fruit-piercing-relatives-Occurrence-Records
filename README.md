@@ -30,20 +30,14 @@ under experimental conditions | http://purl.obolibrary.org/obo/ENVO_01001405
  
 ### Data Definitions
 
-The definitions of the columns used in the interactions.tsv dataset are described here. If these correspond with Darwin Core they are mapped to those classes. Some of the columns in the template were unused.
+The definitions of the key:value pairs that are used in DWC:dynamicProperties field in the occurrences.tsv dataset are described here. This is not an exaustive list of classes to describe the interactions, only the ones that were used in this dataset.
 
-  * A **InteractionID** : An non-unique identifier that links two interactions as part of the same observation in the dataset.
-  * A **BasisOfRecord** [DWC:BasisOfRecord](http://rs.tdwg.org/dwc/terms/basisOfRecord) : The specific nature of the data record.
   * A **sourceTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
   * A **sourceTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
   * A **interactionTypeId** : Identifier for the interaction type.
   * A **interactionTypeName** : A interaction type (ex. eats, piercing). The name of the interaction type should be the name as it is listed in the original text, which is not always the name of the term it is mapped to. As long as the definition to the mapping is compatible with the ```interactionTypeName```, it is usable as a ```interactionTypeId```.
   * A **targetBodyPartName**  : The specific name of the target body part. The name of the body part should be the name as it is listed in the original text, which is not always the name of the term it is mapped to. As long as the definition to the mapping is compatible with the ```targetBodyPartName```, it is usable as a ```targetBodyPartId```.
   * A **targetBodyPartId**  : Identifer for the body part name.
-  * A **experimentalConditionName**  : 
-  * A **experimentalConditionId** : 
-  * A **sexName** [DWC:sex](http://rs.tdwg.org/dwc/terms/sex) : The sex of the biological individual(s) represented in the Occurrence.
-  * A **sexID**  : Identifer for the sex name.
   * A **targetTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
   * A **targetTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
   
@@ -56,9 +50,11 @@ Several issues and decisions arose while translating the observations from the l
 
 1. Invalid date strings according to TDWG and GloBI
 1. Dynamic properties not in json format
-1. Only records with ```dwc:associatedTaxa``` or ```dwc:dynamicProperties``` are indexed by GloBI
+1. Only records with ```DWC:associatedTaxa``` or ```DWC:dynamicProperties``` are indexed by GloBI
 1. GloBI is using the EML to obtain attribution information. It is important to have this information filled out
 
 ### Summary
-This dataset can serve as a example of how to format data for serving occurrence records from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand.
+This dataset can serve as a example of how a person can format data for serving occurrence records using Darwin Core Archives from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand the structure of the shared data. These were entered by hand into a Symbiota portal that has both DWC:associatedTaxa and DWC:dynamicProperties available to use. 
+
+![image of vampire-moth-globi](https://raw.githubusercontent.com/seltmann/vampire-moth-globi/master/network-bloodfeeding.png)
 
