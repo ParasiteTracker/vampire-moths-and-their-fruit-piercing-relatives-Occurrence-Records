@@ -11,6 +11,12 @@ vampire-moth-dwca is a repository for specimen occurrence data about vampire mot
 
 This GitHub repository was created by importing the contents of a Symbiota Darwin Core Archive file. All of the fields in the dataset were produced by entering data in presently available fields in Symbiota (September 28, 2018).
 
+![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/Symbiota-screen.png)
+
+Data entered into ```DWC:dynamicProperties```: targetTaxonName: Homo sapiens; targetTaxonId: https://www.gbif.org/species/2436436; interactionTypeName: eats; interactionTypeId: http://purl.obolibrary.org/obo/RO_0002470; targetBodyPartName: blood; targetBodyPartId: http://purl.obolibrary.org/obo/NCIT_C12434
+
+Data entered into ```DWC:associatedTaxa```: eats: Homo sapiens
+
 ### Citation
 
 Jennifer Zaspel. 2018. Biotic species interactions manually extracted from occurrence records.
@@ -56,5 +62,4 @@ Several issues and decisions arose while translating the observations from the l
 ### Summary
 This dataset can serve as a example of how a person can format data for serving occurrence records using Darwin Core Archives from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand the structure of the shared data. These were entered by hand into a Symbiota portal that has both DWC:associatedTaxa and DWC:dynamicProperties available to use. 
 
-![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/Symbiota-screen.png)
 
