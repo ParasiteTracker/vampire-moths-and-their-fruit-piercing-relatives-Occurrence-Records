@@ -11,12 +11,12 @@ vampire-moth-dwca is a repository for specimen occurrence data about vampire mot
 
 This GitHub repository was created from the contents of a Symbiota Darwin Core Archive file. Presently, only the occurrences.csv and eml.xml is indexed by GloBI.
 
-#####Workflow
+***Workflow***
 All of the fields in the occurrences.csv dataset were produced by entering data in presently available fields in Symbiota (September 28, 2018). A Darwin Core Archive was created using the Symbiota Darwin Core Archive publishing tool and the files from that publication are directly uploaded to the GitHub repository. 
 
 Edit on Symbiota -> create Darwin Core Archive -> push to your GitHub repository for this dataset
 
-#####Entering Data in Symbiota
+***Entering Data in Symbiota***
 
 ![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/Symbiota-screen.png)
 
