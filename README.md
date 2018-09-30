@@ -59,12 +59,13 @@ Darwin Core Archive created by Symbiota
 
 ### Data Issues
 
-Several issues and decisions arose while translating the observations from the literature into a series of single observations. Those are described here.
+Several issues and decisions arose while translating the observations from the literature into a series of single observations. These issues are detailed in the [GitHub issues](https://github.com/ParasiteTracker/vampire-moth-dwca/issues) for this project and also described here.
 
 1. Invalid date strings according to TDWG and GloBI
 1. Dynamic properties not in json format
 1. Only records with ```DWC:associatedTaxa``` or ```DWC:dynamicProperties``` are indexed by GloBI
 1. GloBI is using the EML to obtain attribution information. It is important to have this information filled out
+1. Interaction data coming from multiple record providers could create duplicate interaction records in GloBI with different citations. 
 
 ### Summary
 This dataset can serve as a example of how a person can format data for serving occurrence records using Darwin Core Archives from natural history collections to GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand the structure of the shared data. These were entered by hand into a Symbiota portal that has both DWC:associatedTaxa and DWC:dynamicProperties available to use. 
