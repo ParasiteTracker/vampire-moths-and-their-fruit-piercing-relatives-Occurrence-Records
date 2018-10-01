@@ -30,19 +30,19 @@ The interactions are not explicitly defined, meaning that the word "host" or "ea
 
 ![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/Symbiota-screen.png)
 
-Data entered into ```DWC:dynamicProperties```: 
+Key:value formatted data entered into ```DWC:dynamicProperties```: 
 
-	```targetTaxonName: Homo sapiens; 
+	targetTaxonName: Homo sapiens; 
 	targetTaxonId: https://www.gbif.org/species/2436436; 
 	interactionTypeName: eats; 
 	interactionTypeId: http://purl.obolibrary.org/obo/RO_0002470; 
 	targetBodyPartName: blood; 
-	targetBodyPartId: http://purl.obolibrary.org/obo/NCIT_C12434```
+	targetBodyPartId: http://purl.obolibrary.org/obo/NCIT_C12434
 
 
 Data entered into ```DWC:associatedTaxa```: 
 
-	```eats: Homo sapiens```
+	eats: Homo sapiens
 
 
 ### Citation
@@ -52,7 +52,7 @@ Jennifer Zaspel. 2018. Biotic species interactions manually extracted from occur
 
 ### Interaction Types
 
-The kinds of biotic species interactions in this dataset were mapped to terms in the Relations Ontology (RO). Classes to describe interactions in the RO (and other ontologies) can be searched through the [Ontobee](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002437).
+The kinds of biotic species interactions in this dataset are mapped to terms in the Relations Ontology (RO). Classes to describe interactions in the RO (and other ontologies) can be searched through the [Ontobee](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002437).
 
 interactionTypeName | interactionTypeId
 --- | --- |
