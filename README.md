@@ -30,7 +30,7 @@ The interactions are not explicitly defined, meaning that the word "host" or "ea
 
 ![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/Symbiota-screen.png)
 
-Key:value formatted data entered into ```DWC:dynamicProperties```: 
+Key:value formatted data entered into ```DWC:dynamicProperties``` in the above examples are: 
 
 	targetTaxonName: Homo sapiens; 
 	targetTaxonId: https://www.gbif.org/species/2436436; 
@@ -40,7 +40,8 @@ Key:value formatted data entered into ```DWC:dynamicProperties```:
 	targetBodyPartId: http://purl.obolibrary.org/obo/NCIT_C12434
 
 
-Data entered into ```DWC:associatedTaxa```: 
+
+Key:value formatted data entered into ```DWC:associatedTaxa``` in the above examples are: 
 
 	eats: Homo sapiens
 
