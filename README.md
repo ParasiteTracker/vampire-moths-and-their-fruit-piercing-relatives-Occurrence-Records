@@ -18,6 +18,7 @@ All of the fields in the occurrences.csv dataset were produced by entering data 
 
 
 ![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/biotic-interaction-lifecycle.png)
+
 Edit on Symbiota -> create Darwin Core Archive -> push to your GitHub repository for this dataset
 
 
