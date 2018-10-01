@@ -24,6 +24,7 @@ Edit on Symbiota -> create Darwin Core Archive -> push to your GitHub repository
 
 
 ***Entering Data in Symbiota***
+
 Biotic interaction data can be entered through the ```DWC:dynamicProperties``` and ```DWC:associatedTaxa``` fields. 
 
 [```DWC:associatedTaxa```](http://rs.tdwg.org/dwc/terms/associatedTaxa) is "A list (concatenated and separated) of identifiers or names of taxa and their associations with the Occurrence." The TDWG recommended best practice is to "separate the values with a vertical bar (' | '), and to separate the relationship from the taxon with a colon (':'). Examples: "host: Quercus alba", "parasitoid of:Cyclocephala signaticollis | predator of Apis mellifera".
