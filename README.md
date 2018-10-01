@@ -26,7 +26,7 @@ Biotic interaction data can be entered through the ```DWC:dynamicProperties``` a
 
 The interactions are not explicitly defined, meaning that the word "host" or "eats" could have different meanings in different datasets because a definition of the word is not included. This is where the ``DWC:dynamicProperties``` becomes useful.
 
-[``DWC:dynamicProperties```](http://rs.tdwg.org/dwc/terms/dynamicProperties) is a "list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content", and that structured content for biotic interactions could include the explict identifiers for the details of the interaction.
+[```DWC:dynamicProperties```](http://rs.tdwg.org/dwc/terms/dynamicProperties) is a "list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content", and that structured content for biotic interactions could include the explict identifiers for the details of the interaction.
 
 ![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/Symbiota-screen.png)
 
