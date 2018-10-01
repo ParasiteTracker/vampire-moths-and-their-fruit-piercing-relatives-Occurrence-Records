@@ -34,6 +34,7 @@ The interactions are not explicitly defined, meaning that the word "host" or "ea
 
 	```targetTaxonName: Homo sapiens; targetTaxonId: https://www.gbif.org/species/2436436; interactionTypeName: eats; interactionTypeId: http://purl.obolibrary.org/obo/RO_0002470; targetBodyPartName: blood; targetBodyPartId: http://purl.obolibrary.org/obo/NCIT_C12434```
 
+
 	Data entered into ```DWC:associatedTaxa```: 
 
 	```eats: Homo sapiens```
