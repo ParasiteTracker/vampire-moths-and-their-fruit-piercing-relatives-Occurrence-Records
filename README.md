@@ -27,7 +27,7 @@ Biotic interaction data can be entered through the ```DWC:dynamicProperties``` a
 
 [```DWC:associatedTaxa```](http://rs.tdwg.org/dwc/terms/associatedTaxa) is "A list (concatenated and separated) of identifiers or names of taxa and their associations with the Occurrence." The TDWG recommended best practice is to "separate the values with a vertical bar (' | '), and to separate the relationship from the taxon with a colon (':'). Examples: "host: Quercus alba", "parasitoid of:Cyclocephala signaticollis | predator of Apis mellifera".
 
-The interactions are not explicitly defined, meaning that the word "host" or "eats" could have different meanings in different datasets because a definition of the word is not included. This is where the ``DWC:dynamicProperties``` becomes useful.
+The interactions are not explicitly defined, meaning that the word "host" or "eats" could have different meanings in different datasets because a definition of the word is not included. This is where the ```DWC:dynamicProperties``` becomes useful.
 
 [```DWC:dynamicProperties```](http://rs.tdwg.org/dwc/terms/dynamicProperties) is a "list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content", and that structured content for biotic interactions could include the explict identifiers for the details of the interaction.
 
