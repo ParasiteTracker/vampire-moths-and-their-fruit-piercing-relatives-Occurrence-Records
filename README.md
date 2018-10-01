@@ -9,13 +9,12 @@
 
 vampire-moth-dwca is a repository for specimen occurrence data about vampire moths and their fruit-piercing relatives (Lepidoptera: Erebidae: *Calyptra* spp.). The feeding observations are from the specimens.
 
-This GitHub repository was created from the contents of a Symbiota Darwin Core Archive file. Presently, only the occurrences.csv and eml.xml is indexed by GloBI.
-
-
 
 ***Workflow***
 
-All of the fields in the occurrences.csv dataset were produced by entering data in presently available fields in Symbiota (September 28, 2018). A Darwin Core Archive was created using the Symbiota Darwin Core Archive publishing tool and the files from that publication are directly uploaded to the GitHub repository. 
+All of the fields in the occurrences.csv dataset was produced by entering data in presently available fields in Symbiota (September 28, 2018). The records were entered or edited by a person using the occurrence editor pages in the portal, which has both ```DWC:associatedTaxa``` and ```DWC:dynamicProperties``` available to edit as free text. Once the records were entered, a Darwin Core Archive was created using the Symbiota Darwin Core Archive publishing tool and the files from that publication are directly uploaded to the GitHub repository. The contents of a Symbiota Darwin Core Archive file were uploaded to GitHub. To propagate any additions or changes to GloBI a new DWC Archive is published and the new version of the files are uploaded to GitHub.
+
+GloBI is notified of the archives exist by adding GloBI information at the top of the README.
 
 
 
@@ -95,7 +94,7 @@ Several issues and decisions arose while translating the observations from the l
 1. There is no validation of the information entered in these fields, which increases the change of human error. Improved validation around data format, controlled vocabularies and taxon name verification would improve the data quality.
 
 ### Summary
-This dataset can serve as a example of how data can be formatted directly in a Symbiota portal and share those interactions through GloBI. Only the presently available fields and resources are used in this example and it is the first example of a Darwin Core Archive formatted dataset from a natural history collections to serve on GloBI. It is not the only way to format data, but if this format is reused, GloBI can understand the structure of the shared data. These were entered by hand into a Symbiota portal that has both ```DWC:associatedTaxa``` and ```DWC:dynamicProperties``` available to use. 
+This dataset can serve as a example of how species interaction data can be formatted directly in a Symbiota portal and shared through GloBI. Only presently available Symbiota data entry fields and other resources are used in this example, and it is the first example of a Darwin Core Archive made directly available through GloBI without further manipulation of the data format. This is not the only way to format interaction data for sharing, but if this format is reused, GloBI can understand the structure of the data.
 
 This example is valuable because it demonstrates that biotic interaction data contained within Darwin Core Archives can be presently shared and integrated into other interaction data through GloBI as long as some effort is put into formatting those data. The data can be entered according to TDWG standards in the ```DWC:associatedTaxa``` field, and as key:value pairs in ```DWC:dynamicProperties``` by anyone transcribing data into a Symbitota portal and it does not require additional special services or modifications to the software to perform this task successfully.
 
