@@ -19,9 +19,6 @@ All of the fields in the occurrences.csv dataset was produced by entering data i
 ![image of vampire-moth-dwca-symbiota](https://raw.githubusercontent.com/ParasiteTracker/vampire-moth-dwca/master/biotic-interaction-lifecycle.png)
 
 
-
-
-
 ***Entering Data in Symbiota***
 
 Biotic interaction data can be entered through the ```DWC:dynamicProperties``` and ```DWC:associatedTaxa``` fields. 
@@ -48,6 +45,15 @@ Key:value formatted data entered into ```DWC:dynamicProperties``` in the above e
 Key:value formatted data entered into ```DWC:associatedTaxa``` in the above examples are: 
 
 	eats: Homo sapiens
+
+
+***Publish Darwin Core Archive***
+
+Symbiota comes with the tools to publish your data into a Darwin Core Archive
+
+***Let GloBI Know Where Your Dataset Is***
+
+You can let GloBI know where your Darwin Core Archive RSS feed is online by opening up an issue through the [GloBI contribute page](https://www.globalbioticinteractions.org/contribute). Symbiota creates the RSS feed when the archive is created (ex. UCSB RSS Feed: https://symbiota.ccber.ucsb.edu:443/webservices/dwc/rss.xml)
 
 
 ### Citation
