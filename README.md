@@ -49,11 +49,12 @@ Key:value formatted data entered into ```DWC:associatedTaxa``` in the above exam
 
 ***Publish Darwin Core Archive***
 
-Symbiota comes with the tools to publish your data into a Darwin Core Archive
+Symbiota comes with the tools to publish your data into a Darwin Core Archive. Publish your data and make it live.
+
 
 ***Let GloBI Know Where Your Dataset Is***
 
-You can let GloBI know where your Darwin Core Archive RSS feed is online by opening up an issue through the [GloBI contribute page](https://www.globalbioticinteractions.org/contribute). Symbiota creates the RSS feed when the archive is created (ex. UCSB RSS Feed: https://symbiota.ccber.ucsb.edu:443/webservices/dwc/rss.xml)
+You can let GloBI know where your Darwin Core Archive RSS feed is online by [opening up an issue](https://github.com/jhpoelen/eol-globi-data/issues/new) or choose one of the other methods of sharing your data on the [GloBI contribute page](https://www.globalbioticinteractions.org/contribute). Symbiota creates the RSS feed when the archive is created (ex. UCSB RSS Feed: https://symbiota.ccber.ucsb.edu:443/webservices/dwc/rss.xml)
 
 
 ### Citation
